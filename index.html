@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Sprint 1 Challenge</title>
+  </head>
+  <body onload="init()">
+    <button class="changedbutton" onclick="init()">Reastart</button>
+    <div class="lvl">
+      <input
+        onclick="setLevel(this)"
+        type="radio"
+        name="lvl"
+        id="4"
+        value="Easy"
+      />Easy 4 x 4
+      <input
+        onclick="setLevel(this)"
+        type="radio"
+        name="lvl"
+        id="5"
+        value="Hard"
+      />hard 8 x 8
+      <input
+        onclick="setLevel(this)"
+        type="radio"
+        name="lvl"
+        id="6"
+        value="Ultimate"
+      />ultimate 12 x 12
+    </div>
+    <div>
+      <span class="timer"
+        ><label id="minutes">00</label>:<label id="seconds">00</label></span
+      >
+      <span class="strikes">000</span>
+    </div>
+    <div class="boarcontamer">
+      <table border="1" cellspacing="0" cellpadding="0">
+        <tbody class="board"></tbody>
+      </table>
+    </div>
+
+    <footer>©Ido-Binyamin</footer>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
