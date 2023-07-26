@@ -13,9 +13,9 @@ To set up the project locally, follow these steps:
 3. Open the index.html file in your preferred web browser.
 # Usage
 * Once you open the index.html file, the Mine-Sweeper game will start.
-  * Click on any tile to reveal its content. If a tile contains a mine, the game is over.
-  * Right-click on a tile to flag it as a suspected mine.
-  * The numbers on revealed tiles indicate the number of neighboring mines.
+* Click on any tile to reveal its content. If a tile contains a mine, the game is over.
+* Right-click on a tile to flag it as a suspected mine.
+* The numbers on revealed tiles indicate the number of neighboring mines.
 
 # Features
 * Classic Mine-Sweeper gameplay.
