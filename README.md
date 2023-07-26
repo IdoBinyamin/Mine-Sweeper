@@ -3,7 +3,7 @@
 Mine-Sweeper is a classic web-based game where players uncover tiles on a grid, trying to avoid hidden mines. The goal is to reveal all non-mine tiles without triggering any mines.
 
 # Demo
-To play the Mine-Sweeper game, visit the live demo here.
+To play the Mine-Sweeper game, visit the live demo <a link = 'google.com'>here</a>.
 
 # Installation
 To set up the project locally, follow these steps:
