@@ -20,9 +20,6 @@ To set up the project locally, follow these steps:
 # Features
 * Classic Mine-Sweeper gameplay.
 * Adjustable grid size and mine count for different difficulty levels.
-# Technologies Used
-* HTML
-* CSS
-* JavaScript
+
 # Support/Contact
 If you have any questions or need support, you can contact me at idodavidbinyamin@gmail.com.
